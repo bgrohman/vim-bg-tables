@@ -22,7 +22,7 @@ function! s:Trim(x)
     return substitute(a:x, '^\s*\(.\{-}\)\s*$', '\1', '') 
 endfunction
 
-function! tables#Table(start_line, end_line, ...)
+function! bg_tables#Table(start_line, end_line, ...)
     let separator = g:tables_default_separator
     if a:0 > 0
         let separator = a:1
@@ -82,7 +82,7 @@ function! tables#Table(start_line, end_line, ...)
     endfor
 endfunction
 
-function! tables#Untable(start_line, end_line, ...)
+function! bg_tables#Untable(start_line, end_line, ...)
     let separator = g:tables_default_separator
     if a:0 > 0
         let separator = a:1

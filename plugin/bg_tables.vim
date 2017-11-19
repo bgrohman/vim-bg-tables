@@ -23,5 +23,5 @@
 " | 5  | Broccoli  | Vegetable | Yes    |
 " +----+-----------+-----------+--------+
 
-command! -range -nargs=? Table call tables#Table(<line1>, <line2>, <f-args>)
-command! -range -nargs=? Untable call tables#Untable(<line1>, <line2>, <f-args>)
+command! -range -nargs=? Table call bg_tables#Table(<line1>, <line2>, <f-args>)
+command! -range -nargs=? Untable call bg_tables#Untable(<line1>, <line2>, <f-args>)
