@@ -44,6 +44,8 @@ Into this:
 * Converts the table over the given range into CSV formatted data.
 * Uses the supplied separator or "," if none is provided.
 * Can be used with visual ranges, too.
+* Useful for making large changes to a table - convert it to CSV, make your
+  edits, and then convert back to a table.
 
 ## Global Options
 
