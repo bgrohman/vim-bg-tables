@@ -33,18 +33,22 @@ Into this:
 
 ## Usage
 
-`[range]Table [separator]`
+`:[range]Table [separator]`
 
 * Converts CSV formatted data over the given range into a table.
 * Uses the supplied separator or "," if none is provided.
+* Can be used with visual ranges, too.
 
-`[range]Untable [separator]`
+`:[range]Untable [separator]`
 
 * Converts the table over the given range into CSV formatted data.
 * Uses the supplied separator or "," if none is provided.
+* Can be used with visual ranges, too.
 
-## Options
-TBD
+## Global Options
 
-## Examples
-TBD
+* `g:tables_default_separator = ","`
+* `g:tables_column_separator = "|"`
+* `g:tables_vertex = "+"`
+* `g:tables_border = "-"`
+* `g:tables_header_border = "="`
